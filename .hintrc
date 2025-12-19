@@ -5,6 +5,15 @@
   "hints": {
     "meta-charset-utf-8": "off",
     "axe/language": "off",
-    "meta-viewport": "off"
+    "meta-viewport": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "flex-wrap",
+          "flex-wrap: wrap"
+        ]
+      }
+    ]
   }
 }

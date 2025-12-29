@@ -55,3 +55,16 @@
  - Slice (cartSlice)
  - dispatch(action)
  - Selector
+
+
+# Setting up Testing in our app
+  - Install React Testing Library
+  - Install jest
+  - Installed Babel dependents
+  - configure Babel
+  - configure Parcel Config file to disable default Babel transpilation
+  - Jest - npx jest --init
+  - Install jsdom library
+  - Install @babel/preset-react - to make JSX work in test cases
+  - Include @babel/preset-react inside my babel config
+  - npm i -D @testing-library/jest-dom
